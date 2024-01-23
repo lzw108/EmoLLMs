@@ -49,9 +49,9 @@ model = AutoModelForCausalLM.from_pretrained(MODEL_PATH, device_map='auto')
 In this examples, AutoTokenizer is used to load the tokenizer, and AutoModelForCausalLM is used to load the model. The `device_map='auto'` argument is used to automatically
 use the GPU if it's available. `MODEL_PATH` denotes your model save path.
 
-## Prompt examples
+### Prompt examples
 
-### Emotion intensity
+#### Emotion intensity
 
     Human: 
     Task: Assign a numerical value between 0 (least E) and 1 (most E) to represent the intensity of emotion E expressed in the text.
@@ -63,7 +63,7 @@ use the GPU if it's available. `MODEL_PATH` denotes your model save path.
 
     >>0.896
 
-### Sentiment strength
+#### Sentiment strength
 
     Human:
     Task: Evaluate the valence intensity of the writer's mental state based on the text, assigning it a real-valued score from 0 (most negative) to 1 (most positive).
@@ -74,7 +74,7 @@ use the GPU if it's available. `MODEL_PATH` denotes your model save path.
 
     >>0.879
 
-### Sentiment classification
+#### Sentiment classification
 
     Human:
     Task: Categorize the text into an ordinal class that best characterizes the writer's mental state, considering various degrees of positive and negative sentiment intensity. 3: very positive mental state can be inferred. 2: moderately positive mental state can be inferred. 1: slightly positive mental state can be inferred. 0: neutral or mixed mental state can be inferred. -1: slightly negative mental state can be inferred. -2: moderately negative mental state can be inferred. -3: very negative mental state can be inferred
@@ -85,7 +85,7 @@ use the GPU if it's available. `MODEL_PATH` denotes your model save path.
 
     >>-3: very negative emotional state can be inferred
 
-### Emotion classification
+#### Emotion classification
 
     Human:
     Task: Categorize the text's emotional tone as either 'neutral or no emotion' or identify the presence of one or more of the given emotions (anger, anticipation, disgust, fear, joy, love, optimism, pessimism, sadness, surprise, trust).
