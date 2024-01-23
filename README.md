@@ -97,6 +97,26 @@ use the GPU if it's available. `MODEL_PATH` denotes your model save path.
     >>joy, love, optimism
 The task description can be adjusted according to the specific task.
 
+After loading the models, you can generate a response. Here is an example:
+
+```python
+prompt = '''Human: 
+Task: Assign a numerical value between 0 (least E) and 1 (most E) to represent the intensity of emotion E expressed in the text.
+Text: @CScheiwiller can't stop smiling 😆😆😆
+Emotion: joy
+Intensity Score:
+
+Assistant:
+'''
+
+inputs = tokenizer(prompt, return_tensors="pt")
+
+# Generate
+generate_ids = model.generate(inputs["input_ids"], max_length=256)
+response = tokenizer.batch_decode(generate_ids, skip_special_tokens=True)[0]
+print(response)
+```
+
 ## License
 
 EmoLLMs series are licensed under [MIT]. Please find more details in the [MIT](LICENSE) file.
