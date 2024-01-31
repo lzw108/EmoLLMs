@@ -5,6 +5,7 @@
 ## News
 
 📢 *Jan. 31, 2024* We release the training code of EmoLLMs models and some data examples! More datasets will be released soon.
+
 📢 *Jan. 23, 2024* We release the series of EmoLLMs models!
 
 ## Introduction
