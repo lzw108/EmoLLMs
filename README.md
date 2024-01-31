@@ -4,7 +4,8 @@
 
 ## News
 
-📢 *Jan. 23, 2024* We release the series of EmoLLMs models! The dataset and code will be released soon.
+📢 *Jan. 31, 2024* We release the training code of EmoLLMs models and some data examples! More datasets will be released soon.
+📢 *Jan. 23, 2024* We release the series of EmoLLMs models!
 
 ## Introduction
 
@@ -115,6 +116,15 @@ inputs = tokenizer(prompt, return_tensors="pt")
 generate_ids = model.generate(inputs["input_ids"], max_length=256)
 response = tokenizer.batch_decode(generate_ids, skip_special_tokens=True)[0]
 print(response)
+```
+Batch inference. The data format needs to follow data/test.json.
+```python
+bash src/run_inference.sh
+```
+
+### Finetune
+```python
+bash src/run_sft.sh
 ```
 
 ## License
