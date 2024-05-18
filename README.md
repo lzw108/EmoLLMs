@@ -3,6 +3,7 @@
 [The EmoLLMs Paper](https://arxiv.org/abs/2401.08508)
 
 ## News
+📢 *May. 16, 2024* Our EmoLLMs paper has been accepted by KDD 2024!
 
 📢 *Jan. 31, 2024* We release the training code of EmoLLMs models and some data examples! More datasets will be released soon.
 
