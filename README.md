@@ -3,9 +3,11 @@
 [The EmoLLMs Paper](https://arxiv.org/abs/2401.08508)
 
 ## News
+📢 *Aug. 14, 2024* The AEB benchmark and train dataset have been released.
+
 📢 *May. 16, 2024* Our EmoLLMs paper has been accepted by KDD 2024!
 
-📢 *Jan. 31, 2024* We release the training code of EmoLLMs models and some data examples! More datasets will be released soon.
+📢 *Jan. 31, 2024* We release the training code of EmoLLMs models and some data examples!
 
 📢 *Jan. 23, 2024* We release the series of EmoLLMs models!
 
