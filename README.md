@@ -41,7 +41,7 @@ All models are trained on the full AAID instruction tuning data.
 
 ## Complete datasets used in EmoLLMs
 
-[Link](https://huggingface.co/datasets/lzw1008/EmoLLMs_data)
+[Link](https://huggingface.co/datasets/lzw1008/EmoLLMs_data/tree/main)
 
 ## Usage
 
