@@ -39,7 +39,9 @@ There are a series of EmoLLMs, including Emollama-7b, Emollama-chat-7b, Emollama
 
 All models are trained on the full AAID instruction tuning data.
 
+## Complete datasets used in EmoLLMs
 
+[Link](https://huggingface.co/datasets/lzw1008/EmoLLMs_data)
 
 ## Usage
 
@@ -140,10 +142,19 @@ EmoLLMs series are licensed under [MIT]. Please find more details in the [MIT](L
 If you use the series of EmoLLMs in your work, please cite our paper:
 
 ```bibtex
-@article{liu2024emollms,
-  title={EmoLLMs: A Series of Emotional Large Language Models and Annotation Tools for Comprehensive Affective Analysis},
-  author={Liu, Zhiwei and Yang, Kailai and Zhang, Tianlin and Xie, Qianqian and Yu, Zeping and Ananiadou, Sophia},
-  journal={arXiv preprint arXiv:2401.08508},
-  year={2024}
+@inproceedings{10.1145/3637528.3671552,
+author = {Liu, Zhiwei and Yang, Kailai and Xie, Qianqian and Zhang, Tianlin and Ananiadou, Sophia},
+title = {EmoLLMs: A Series of Emotional Large Language Models and Annotation Tools for Comprehensive Affective Analysis},
+year = {2024},
+isbn = {9798400704901},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3637528.3671552},
+doi = {10.1145/3637528.3671552},
+pages = {5487–5496},
+numpages = {10},
+keywords = {affective evaluation benchmark, affective instruction dataset, emotion detection, large language models, sentiment analysis},
+location = {Barcelona, Spain},
+series = {KDD '24}
 }
 ```
