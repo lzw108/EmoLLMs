@@ -3,6 +3,9 @@
 [The EmoLLMs Paper](https://arxiv.org/abs/2401.08508)
 
 ## News
+
+📢 *May. 30, 2025* We release A Multilingual and Multimodal Affective Analysis Benchmark at [MMAFFBen](https://github.com/lzw108/MMAFFBen).
+
 📢 *Aug. 14, 2024* The AEB benchmark and train dataset have been released.
 
 📢 *May. 16, 2024* Our EmoLLMs paper has been accepted by KDD 2024!
